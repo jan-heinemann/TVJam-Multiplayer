@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TVJam</string>
+    <string name="welcome_to_the_game">Welcome to the Game</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="your_name">Your name</string>
+    <string name="play">Play!</string>
+    <string name="name">Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="spinner_Entries">
+        <item>Breaking Bad</item>
+        <item>Vikings</item>
+    </string-array>
+
+</resources>

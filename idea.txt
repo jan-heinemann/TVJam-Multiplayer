@@ -1,0 +1,11 @@
+Quiz App
+Various trivia questions about people in TV show
+Points given in relation to the time it took to answer 
+Leaderboard
+
+Possible
+Variety in the type of questions e.g. 4 Answers .. pick right picture .. etc
+Generate questions randomly with data on fan wiki
+Persisent leaderboard
+
+

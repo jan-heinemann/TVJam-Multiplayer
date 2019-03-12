@@ -1,0 +1,19 @@
+String triviaUrl = WIKIAURL + "/api.php?action=query&prop=pageprops&format=xml&titles=";
+
+                String myTriviaRequest = triviaUrl + charName;
+
+                String myTriviaResponse = downloadAsString(myTriviaRequest);
+
+                String s = myTriviaResponse;
+
+                s = s.substring(s.indexOf("[") + 1);
+                s = s.substring(0, s.lastIndexOf("]"));
+                s = "[" + s + "]";
+
+                s = StringEscapeUtils.unescapeHtml4(s);
+
+                largeLog("myBig", s);
+
+                JSONArray testJ = new JSONArray(s);
+
+                Log.d("my name", testJ.getJSONArray(1).getJSONArray(1).getJSONObject(1).getString("value"));
